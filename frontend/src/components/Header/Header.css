@@ -1,0 +1,43 @@
+header{
+   
+    position: fixed;
+    width: 98vw;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: var(--heading-font-name);
+    
+ } 
+
+.logo{
+    padding: 10px;
+   
+ }
+ 
+
+.logo span{
+    
+    margin: 5px;
+    font-size: 1.6rem;
+}
+.navigation{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.nav__items a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav__items a:hover{
+    color: rgb(0, 223, 204);
+}
+
+.nav__items a.active__link{
+    color: rgb(0, 223, 204);
+}
+
+.mobile__menu{
+    font-size: 1.3rem;
+    color: white;
+    display: none;
+}

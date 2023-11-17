@@ -1,0 +1,45 @@
+.background{
+    position: relative;
+    z-index: -1;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+    
+  }
+  .homevid{
+    top: -20vh;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.search{
+     position: absolute;
+     width: 100vw;
+     top: 30vh;
+     
+  }
+  .search h1{
+    color: var(--secondary-color);
+    font-family: var(--heading-font-name);
+    font-size: 7rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: black 10px 10px 20px;
+    margin-bottom: -15px;
+
+      }
+  .search h2{
+    color: white;
+    font-family: var(--heading-font-name);
+    font-size:3rem;
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+    margin-bottom: 30px;
+
+   
+
+  }
