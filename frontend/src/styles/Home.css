@@ -43,3 +43,70 @@
    
 
   }
+  .services__subtitle{
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    font-family: var(--heading-font-name);
+
+
+  }
+
+  .services__title{
+    font-size: 2.2rem;
+    font-family: var(--heading-font-name);
+  }
+
+  .featured__tour-title{
+    font-size: 2.3rem;
+    font-family: var(--heading-font-name);
+    text-align: center;
+
+  }
+
+  .experience__content h2{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-family: var(--heading-font-name);
+
+
+  }
+  
+  .experience__content p{
+    font-size: 1.1rem;
+    font-family: var(--font-name);
+    margin-top: 1rem;
+  }
+
+  .counter__wrapper{
+    margin-top: 2.5rem;
+  }
+
+  .counter__box span{
+    width: 65px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size:1.4rem ;
+    border-radius: 10px 5px 10px 5px;
+    font-family: var(--heading-font-name);
+
+  }
+
+  .gallery__title{
+    font-size: 2.3rem;
+    font-family: var(--heading-font-name);
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    text-align:center;
+  }
+
+  .testimonial__title{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    font-family: var(--heading-font-name);
+    text-align: center;
+  }

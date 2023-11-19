@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{ useState, useEffect }from 'react'
 import { Container , Row ,Button} from 'reactstrap'
 import { NavLink,Link } from 'react-router-dom'
 import "./Header.css";
@@ -23,10 +23,24 @@ const nav__links=[
 ]
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="header">
-      {/* <Container>  */}
-         <Row> 
+    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+      <Row>
          <div className="nav__wrapper d-flex align-items-center justify-content-between ">
 
           <div className="logo text-white">

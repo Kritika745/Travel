@@ -3,31 +3,37 @@ header{
     position: fixed;
     width: 98vw;
     overflow: hidden;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-family: var(--heading-font-name);
+    z-index: 10;
     
- } 
+ }
+ 
+.scrolled{
+    background-color: rgba(0, 0, 0, 0.685);
+} 
 
 .logo{
     padding: 10px;
    
- }
+}
  
-
 .logo span{
-    
-    margin: 5px;
+     margin: 5px;
     font-size: 1.6rem;
 }
+
 .navigation{
-    margin-top: 10px;
+    margin-top: 15px; 
     font-size: 1.2rem;
 }
+
 .nav__items a{
     text-decoration: none;
     color: white;
 
 }
+
 .nav__items a:hover{
     color: rgb(0, 223, 204);
 }
@@ -40,4 +46,13 @@ header{
     font-size: 1.3rem;
     color: white;
     display: none;
+}
+
+.masonry__img{
+   transition: .3s; 
+
+}
+
+.masonry__img:hover{
+    transform:scale(1.1);
 }

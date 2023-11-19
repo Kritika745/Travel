@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 :root {
   --primary-color: #ff7e01;
   --secondary-color: rgb(0, 223, 204);
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name:;
+  --font-name:'Noto Serif', serif;
   --heading-font-name:"poppins" ;
+  
 }
 
 * {
@@ -64,7 +65,7 @@ ul {
   color:rgb(0, 223, 204);
 }
 
-.section__subtitle {
+/* .section__subtitle {
   background: var(--secondary-color);
   font-family: var(--subtitle-font-name);
   width: max-content;
@@ -75,5 +76,5 @@ ul {
   font-weight: 500;
   font-size: 1.7rem;
   color: var(--heading-color);
-}
+} */
 
