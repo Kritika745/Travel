@@ -1,7 +1,7 @@
 .search__bar{
     background-color: white;
     border-radius: 10px;
-    box-shadow: black 90px 40px 80px;
+    box-shadow: black 50px 30px 80px;
     padding: 0.5rem 1rem;
     width: max-content;   
 }
