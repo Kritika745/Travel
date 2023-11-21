@@ -62,7 +62,12 @@
     text-align: center;
 
   }
-
+  .experience{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .experience__content h2{
     font-size: 2.5rem;
     margin-top: 1rem;
@@ -70,7 +75,9 @@
 
 
   }
-  
+  .experience__img img{
+    width: 100%;
+  }
   .experience__content p{
     font-size: 1.1rem;
     font-family: var(--font-name);
@@ -109,4 +116,9 @@
     margin-top: 1rem;
     font-family: var(--heading-font-name);
     text-align: center;
+  }
+
+  .testimonial{
+     font-family: var(--font-name); 
+     text-align: justify;
   }

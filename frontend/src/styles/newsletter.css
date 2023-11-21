@@ -6,6 +6,7 @@
 
 .newsletter__content h2{
      width: 100%;
+     font-family: var(--heading-font-name);
 }
 
 .newsletter__content{
@@ -13,7 +14,7 @@
 }
 
 .newsletter__content h2{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
 }
 
@@ -39,10 +40,13 @@
 .newsletter__btn{
     padding: 0.5rem 1.5rem !important;
     background-color: var(--secondary-color) !important;
-    color: white !important;
+    color: rgba(0, 0, 0, 0.592) !important;
     font-size: 1.1rem !important;
+    font-weight:bold !important;
 }
 
 .newsletter__content p{
     font-size: 1.1rem;
+    font-family: var(--font-name);
+    margin-top: 1rem;
 }

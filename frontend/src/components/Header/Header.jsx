@@ -19,7 +19,10 @@ const nav__links=[
     path:'/tours',
     display:'Tours'
   },
- 
+ {
+  path:'/',
+  display:"Gallery"
+ }
 ]
 
 const Header = () => {

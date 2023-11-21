@@ -54,7 +54,7 @@ const Home = () => {
     <section>
       <Container>
         <Row>
-          <Col lg='6'>
+          <Col lg='6' className='experience'>
             <div className="experience__content">
               <h2>With our all experience <br /> we will serve you</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -86,8 +86,8 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-
-    <section>
+    
+    <section >
       <Container>
         <Row>
           <Col lg='12'>
@@ -99,7 +99,7 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-
+    
     <section>
        <Container>
           <Row>
@@ -107,7 +107,7 @@ const Home = () => {
               <h2 className="testimonial__title">
                 What our clients say about us
               </h2>
-              <Col lg='12'>
+              <Col lg='12' className='testimonial'>
                 <Testimonials/>
               </Col>
 

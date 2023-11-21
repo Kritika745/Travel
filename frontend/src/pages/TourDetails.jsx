@@ -3,7 +3,7 @@ import '../styles/tourdetails.css'
 import {Container ,Row,Col,Form,ListGroup} from 'reactstrap'
 import {useParams} from 'react-router-dom'
 import tourData from '../assets/data/tours'
-import calculateAvgRating from '../utils/AvgRating'
+import calculateAvgRating from '../utils/avgRating'
 import avatar from '../assets/images/avatar.jpg'
 import Booking from './Booking'
 import Newsletter from '../Elements/Newsletter'
@@ -33,12 +33,20 @@ const TourDetails = () => {
   return (
     <>
 
+    <section className='img'>
+  
+          <Row className='img__row'>
+           <img src={photo} alt="" />
+
+          </Row>
+      
+    </section>
+
     <section className='back'>
       <Container>
         <Row>
           <Col lg='8' >
               <div className='tour__content'>
-                  <img src={photo} alt="" />
 
                   <div className='tour__info'>
                       <h2>{title}</h2>

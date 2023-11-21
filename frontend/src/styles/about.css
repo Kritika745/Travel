@@ -1,0 +1,11 @@
+.head{
+    font-family: var(--heading-font-name);
+    color: var(--secondary-color);
+    margin-bottom: .5rem;
+}
+
+.para{
+    font-family: var(--font-name);
+    margin-bottom: 2.5rem;
+    
+}

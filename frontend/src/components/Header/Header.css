@@ -1,12 +1,11 @@
 header{
    
     position: fixed;
-    width: 98vw;
+    width: 100vw;
     overflow: hidden;
-    /* margin-top: 10px; */
     font-family: var(--heading-font-name);
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.215);
+    /* background-color: rgba(0, 0, 0, 0.215); */
     
 }
  
@@ -56,4 +55,8 @@ header{
 
 .masonry__img:hover{
     transform:scale(1.1);
+}
+
+.nav__right{
+    margin-right: 25px;
 }
