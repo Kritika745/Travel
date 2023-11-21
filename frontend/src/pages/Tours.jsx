@@ -23,8 +23,8 @@ const Tours = () => {
   return (
     <>
     <CommonSection title={"All Tours"}/>
-    <section>
-      <Container>
+    <section  className='searchbar__section'>
+      <Container className='search-bar'>
         <Row>
            <Searchbar/>
         </Row>
